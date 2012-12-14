@@ -1,0 +1,589 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="graph0" width="940.0381196291279" height="891">
+<defs>
+<pattern id="cloneMarker" patternUnits="objectBoundingBox" x="0" y="70%" width="1000" height="100">
+<rect fill="black" width="1000" height="100">
+</rect>
+</pattern>
+<pattern id="stateVariableExistence" patternUnits="objectBoundingBox" x="50%" y="0" width="100" height="100">
+<rect fill="black" width="100" height="100">
+</rect>
+</pattern>
+<pattern id="stateVariableLocation" patternUnits="objectBoundingBox" x="0" y="0" width="14" height="14">
+<path d="M0,14 L14,0 M7,7 L14,14 Z" style="stroke-width:2;stroke:rgb(0,0,0)">
+</path>
+</pattern>
+<marker id="connectingArc0" orient="auto" refX="20" refY="10" markerWidth="20" markerHeight="20" viewBox="-2 -2 24 24" class="assignment">
+<path d="M0,0 S10,10,0,20 L20,10 Z" fill="black" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc0hover" orient="auto" refX="20" refY="10" markerWidth="5" markerHeight="20" viewBox="-2 -2 24 24" class="assignment">
+<path d="M0,0 S10,10,0,20 L20,10 Z" fill="black" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc1" orient="auto" refX="25" refY="10" markerWidth="35" markerHeight="20" viewBox="-2 -2 39 24" class="stimulation">
+<path d="M0,0 L0,20 L10,15 L10,5 L0,0 Z M10,0 L10,20 L25,10Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc1hover" orient="auto" refX="25" refY="10" markerWidth="8.75" markerHeight="20" viewBox="-2 -2 39 24" class="stimulation">
+<path d="M0,0 L0,20 L10,15 L10,5 L0,0 Z M10,0 L10,20 L25,10Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc2" orient="auto" refX="20" refY="10" markerWidth="20" markerHeight="20" viewBox="-2 -2 24 24" class="stimulation">
+<path d="M0,0L20,10L0,20Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc2hover" orient="auto" refX="20" refY="10" markerWidth="5" markerHeight="20" viewBox="-2 -2 24 24" class="stimulation">
+<path d="M0,0L20,10L0,20Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc3" orient="auto" refX="20" refY="10" markerWidth="20" markerHeight="20" viewBox="-2 -2 24 24">
+<path d="M0,0L20,10L0,20Z" fill="black" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc3hover" orient="auto" refX="20" refY="10" markerWidth="5" markerHeight="20" viewBox="-2 -2 24 24">
+<path d="M0,0L20,10L0,20Z" fill="black" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc4" orient="auto" refX="20" refY="10" markerWidth="20" markerHeight="20" viewBox="-2 -2 24 24">
+<path d="" fill="black" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc4hover" orient="auto" refX="20" refY="10" markerWidth="5" markerHeight="20" viewBox="-2 -2 24 24">
+<path d="" fill="black" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc5" orient="auto" refX="2" refY="10" markerWidth="20" markerHeight="22" viewBox="-2 -2 24 26">
+<path d="M0,0 V20 H1 V0 ZM22,0" fill="black" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc5hover" orient="auto" refX="2" refY="10" markerWidth="5" markerHeight="22" viewBox="-2 -2 24 26">
+<path d="M0,0 V20 H1 V0 ZM22,0" fill="black" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc6" orient="auto" refX="10" refY="12" markerWidth="10" markerHeight="26" viewBox="-2 -2 14 30" class="necessaryStimulation">
+<path d="M0,0 V25 M10,0 V25Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc6hover" orient="auto" refX="10" refY="12" markerWidth="2.5" markerHeight="26" viewBox="-2 -2 14 30" class="necessaryStimulation">
+<path d="M0,0 V25 M10,0 V25Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc7" orient="auto" refX="20" refY="10" markerWidth="20" markerHeight="20" viewBox="-2 -2 24 24" class="catalysis">
+<circle cx="10" cy="10" r="10" fill="white" stroke="black">
+</circle>
+</marker>
+<marker id="connectingArc7hover" orient="auto" refX="20" refY="10" markerWidth="5" markerHeight="20" viewBox="-2 -2 24 24" class="catalysis">
+<circle cx="10" cy="10" r="10" fill="white" stroke="black">
+</circle>
+</marker>
+<marker id="connectingArc8" orient="auto" refX="20" refY="10" markerWidth="20" markerHeight="20" viewBox="-2 -2 24 24" class="control">
+<path d="M10,0L20,10L10,20L0,10Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc8hover" orient="auto" refX="20" refY="10" markerWidth="5" markerHeight="20" viewBox="-2 -2 24 24" class="control">
+<path d="M10,0L20,10L10,20L0,10Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc9" orient="auto" refX="25" refY="10" markerWidth="26" markerHeight="26" viewBox="-2 -2 30 30" class="necessaryStimulation">
+<path d="M0,0 V20 M10,0 L25,10L10,20Z" fill="white" stroke="black">
+</path>
+</marker>
+<marker id="connectingArc9hover" orient="auto" refX="25" refY="10" markerWidth="6.5" markerHeight="26" viewBox="-2 -2 30 30" class="necessaryStimulation">
+<path d="M0,0 V20 M10,0 L25,10L10,20Z" fill="white" stroke="black">
+</path>
+</marker>
+</defs>
+<style type="text/css">
+.line		{
+		color:	black;
+		}
+</style>
+<g transform="scale(0.3762113895680902) translate(0, 0)">
+<g>
+<g id="glucose" transform="translate(986.9041072907276,1269.4927294010995)" class="rect">
+<path d="M43.5,0 H72 A15,15 0 0,1 87,15 V45 A15,15 0 0,1 72,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">glucose</tspan>
+</text>
+</g>
+<g id="glycerol" transform="translate(724.5741371145123,995.3545358094852)" class="rect">
+<path d="M44.5,0 H74 A15,15 0 0,1 89,15 V45 A15,15 0 0,1 74,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">glycerol</tspan>
+</text>
+</g>
+<g id="nitrogen" transform="translate(1386.2231789734215,1800.1410640525864)" class="rect">
+<path d="M45,0 H75 A15,15 0 0,1 90,15 V45 A15,15 0 0,1 75,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">nitrogen</tspan>
+</text>
+</g>
+<g id="glycolysis" transform="translate(982.7775438465178,910.5465049635968)" class="rect">
+<path d="M52,0 H89 A15,15 0 0,1 104,15 V45 A15,15 0 0,1 89,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">glycolysis</tspan>
+</text>
+</g>
+<g id="pyruvate" transform="translate(826.1982401541318,669.4885149759357)" class="rect">
+<path d="M47,0 H79 A15,15 0 0,1 94,15 V45 A15,15 0 0,1 79,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">pyruvate</tspan>
+</text>
+</g>
+<g id="fermentation" transform="translate(962.3936418085941,331.5488128560246)" class="rect" style="cursor: move; ">
+<path d="M61,0 H107 A15,15 0 0,1 122,15 V45 A15,15 0 0,1 107,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">fermentation</tspan>
+</text>
+</g>
+<g id="oxphos" transform="translate(1190.3110942120547,454.11716043169145)" class="rect" style="cursor: move; ">
+<path d="M43,0 H71 A15,15 0 0,1 86,15 V45 A15,15 0 0,1 71,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">oxphos</tspan>
+</text>
+</g>
+<g id="ethanol" transform="translate(842.2117165283998,30)" class="rect" style="cursor: s-resize; ">
+<path d="M41.5,0 H68 A15,15 0 0,1 83,15 V45 A15,15 0 0,1 68,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">ethanol</tspan>
+</text>
+</g>
+<g id="NADH" transform="translate(1046.199593488942,586.5615099808783)" class="rect">
+<path d="M41,0 H67 A15,15 0 0,1 82,15 V45 A15,15 0 0,1 67,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">NADH</tspan>
+</text>
+</g>
+<g id="oxygen" transform="translate(1262.8304736521677,208.34071054577362)" class="rect">
+<path d="M42,0 H69 A15,15 0 0,1 84,15 V45 A15,15 0 0,1 69,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">oxygen</tspan>
+</text>
+</g>
+<g id="ETC" transform="translate(1382.2153147727367,315.4746487587108)" class="rect">
+<path d="M33,0 H51 A15,15 0 0,1 66,15 V45 A15,15 0 0,1 51,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">ETC</tspan>
+</text>
+</g>
+<g id="ROS" transform="translate(1629.6642964511993,497.2096330024651)" class="rect">
+<path d="M34,0 H53 A15,15 0 0,1 68,15 V45 A15,15 0 0,1 53,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">ROS</tspan>
+</text>
+</g>
+<g id="acid_cycle" transform="translate(751.7563134247903,379.7597281113267)" class="rect">
+<path d="M55,0 H95 A15,15 0 0,1 110,15 V45 A15,15 0 0,1 95,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">acid_cycle</tspan>
+</text>
+</g>
+<g id="CO2" transform="translate(420.3520249162684,408.5437810366275)" class="rect">
+<path d="M33,0 H51 A15,15 0 0,1 66,15 V45 A15,15 0 0,1 51,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">CO2</tspan>
+</text>
+</g>
+<g id="ATP" transform="translate(751.0558758600382,766.3861595209455)" class="rect">
+<path d="M33,0 H51 A15,15 0 0,1 66,15 V45 A15,15 0 0,1 51,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">ATP</tspan>
+</text>
+</g>
+<g id="Gpr1" transform="translate(607.411472789885,1205.7523537939996)" class="rect">
+<path d="M34.5,0 H54 A15,15 0 0,1 69,15 V45 A15,15 0 0,1 54,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Gpr1</tspan>
+</text>
+</g>
+<g id="Gpa2" transform="translate(277.63865336286835,1079.2677200154867)" class="rect">
+<path d="M35.5,0 H56 A15,15 0 0,1 71,15 V45 A15,15 0 0,1 56,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Gpa2</tspan>
+</text>
+</g>
+<g id="Cyr1" transform="translate(201.33802831493085,859.9637891644379)" class="rect">
+<path d="M33.5,0 H52 A15,15 0 0,1 67,15 V45 A15,15 0 0,1 52,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Cyr1</tspan>
+</text>
+</g>
+<g id="Ras2" transform="translate(209.93623856839258,606.8393666601623)" class="rect">
+<path d="M34,0 H53 A15,15 0 0,1 68,15 V45 A15,15 0 0,1 53,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Ras2</tspan>
+</text>
+</g>
+<g id="cAMP" transform="translate(435.66955489851534,1064.642150952539)" class="rect">
+<path d="M39.5,0 H64 A15,15 0 0,1 79,15 V45 A15,15 0 0,1 64,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">cAMP</tspan>
+</text>
+</g>
+<g id="PKA" transform="translate(458.4078235917841,1483.861453328689)" class="rect">
+<path d="M33.5,0 H52 A15,15 0 0,1 67,15 V45 A15,15 0 0,1 52,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">PKA</tspan>
+</text>
+</g>
+<g id="Sch9" transform="translate(735.2144257145119,1387.9193817677442)" class="rect">
+<path d="M34,0 H53 A15,15 0 0,1 68,15 V45 A15,15 0 0,1 53,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Sch9</tspan>
+</text>
+</g>
+<g id="rapamycin" transform="translate(1246.019680656027,1891.3214743150165)" class="rect">
+<path d="M53.5,0 H92 A15,15 0 0,1 107,15 V45 A15,15 0 0,1 92,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">rapamycin</tspan>
+</text>
+</g>
+<g id="TORC1" transform="translate(1216.1014352263883,1614.3841952971998)" class="rect">
+<path d="M45.5,0 H76 A15,15 0 0,1 91,15 V45 A15,15 0 0,1 76,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">TORC1</tspan>
+</text>
+</g>
+<g id="fortified_cell_wall" transform="translate(1615.6693766077515,1700.6440577710164)" class="rect">
+<path d="M81.5,0 H148 A15,15 0 0,1 163,15 V45 A15,15 0 0,1 148,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">fortified_cell_wall</tspan>
+</text>
+</g>
+<g id="Psr1" transform="translate(405.1992243928253,1709.0316438669688)" class="rect">
+<path d="M32,0 H49 A15,15 0 0,1 64,15 V45 A15,15 0 0,1 49,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Psr1</tspan>
+</text>
+</g>
+<g id="Psr2" transform="translate(126.40599370753625,1847.1361340999138)" class="rect">
+<path d="M32,0 H49 A15,15 0 0,1 64,15 V45 A15,15 0 0,1 49,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Psr2</tspan>
+</text>
+</g>
+<g id="Msn2_4" transform="translate(231.5520980071742,1666.736363612872)" class="rect">
+<path d="M45.5,0 H76 A15,15 0 0,1 91,15 V45 A15,15 0 0,1 76,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Msn2_4</tspan>
+</text>
+</g>
+<g id="Whi2" transform="translate(30,1640.3005571305403)" class="rect">
+<path d="M35,0 H55 A15,15 0 0,1 70,15 V45 A15,15 0 0,1 55,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Whi2</tspan>
+</text>
+</g>
+<g id="Wsc1" transform="translate(1815.3521761189331,295.3137238075142)" class="rect">
+<path d="M37,0 H59 A15,15 0 0,1 74,15 V45 A15,15 0 0,1 59,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Wsc1</tspan>
+</text>
+</g>
+<g id="Pkc1" transform="translate(2065.56243551214,215.4433091407409)" class="rect">
+<path d="M34,0 H53 A15,15 0 0,1 68,15 V45 A15,15 0 0,1 53,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Pkc1</tspan>
+</text>
+</g>
+<g id="Bck1" transform="translate(2272.8508072051336,352.24771005730145)" class="rect">
+<path d="M34.5,0 H54 A15,15 0 0,1 69,15 V45 A15,15 0 0,1 54,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Bck1</tspan>
+</text>
+</g>
+<g id="Mkk1" transform="translate(2270.5335777977016,573.5294011821388)" class="rect">
+<path d="M36.5,0 H58 A15,15 0 0,1 73,15 V45 A15,15 0 0,1 58,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Mkk1</tspan>
+</text>
+</g>
+<g id="Mkk2" transform="translate(2395.6965990273166,609.0589018622995)" class="rect">
+<path d="M36.5,0 H58 A15,15 0 0,1 73,15 V45 A15,15 0 0,1 58,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Mkk2</tspan>
+</text>
+</g>
+<g id="Slt2" transform="translate(2252.4986302230973,817.0079544727923)" class="rect">
+<path d="M30,0 H45 A15,15 0 0,1 60,15 V45 A15,15 0 0,1 45,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15.5" dy="0" style="">Slt2</tspan>
+</text>
+</g>
+<g id="Sdp1" transform="translate(1912.2080723965191,747.4301561387838)" class="rect">
+<path d="M35,0 H55 A15,15 0 0,1 70,15 V45 A15,15 0 0,1 55,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Sdp1</tspan>
+</text>
+</g>
+<g id="Slt2_cytosol" transform="translate(1870.5316072267015,1006.6866163726663)" class="rect">
+<path d="M62,0 H109 A15,15 0 0,1 124,15 V45 A15,15 0 0,1 109,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Slt2_cytosol</tspan>
+</text>
+</g>
+<g id="Slt2_nucleus" transform="translate(2129.3184751901426,1098.5375120957033)" class="rect">
+<path d="M62.5,0 H110 A15,15 0 0,1 125,15 V45 A15,15 0 0,1 110,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Slt2_nucleus</tspan>
+</text>
+</g>
+<g id="Rlm1" transform="translate(2037.6691100447788,1491.836942227732)" class="rect">
+<path d="M35,0 H55 A15,15 0 0,1 70,15 V45 A15,15 0 0,1 55,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Rlm1</tspan>
+</text>
+</g>
+<g id="Uth1" transform="translate(1882.0854845554568,1936.480137431703)" class="rect">
+<path d="M33,0 H51 A15,15 0 0,1 66,15 V45 A15,15 0 0,1 51,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Uth1</tspan>
+</text>
+</g>
+<g id="Atg1" transform="translate(807.5398145429208,1669.146586160874)" class="rect">
+<path d="M33,0 H51 A15,15 0 0,1 66,15 V45 A15,15 0 0,1 51,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Atg1</tspan>
+</text>
+</g>
+<g id="Atg13" transform="translate(970.7577979891212,1957.8173099185224)" class="rect">
+<path d="M37.5,0 H60 A15,15 0 0,1 75,15 V45 A15,15 0 0,1 60,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Atg13</tspan>
+</text>
+</g>
+<g id="Atg1_13_17" transform="translate(778.6591834498104,2020.6775329950615)" class="rect">
+<path d="M61,0 H107 A15,15 0 0,1 122,15 V45 A15,15 0 0,1 107,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Atg1_13_17</tspan>
+</text>
+</g>
+<g id="Atg17" transform="translate(797.1510644837981,2278.3493501430494)" class="rect">
+<path d="M37.5,0 H60 A15,15 0 0,1 75,15 V45 A15,15 0 0,1 60,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Atg17</tspan>
+</text>
+</g>
+<g id="Atg8" transform="translate(635.0964188838261,1745.0439802900655)" class="rect">
+<path d="M33,0 H51 A15,15 0 0,1 66,15 V45 A15,15 0 0,1 51,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Atg8</tspan>
+</text>
+</g>
+<g id="Atg32" transform="translate(1459.4297227771021,1295.9736334253685)" class="rect">
+<path d="M37.5,0 H60 A15,15 0 0,1 75,15 V45 A15,15 0 0,1 60,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Atg32</tspan>
+</text>
+</g>
+<g id="Atg33" transform="translate(1532.417076787271,1055.1125197732472)" class="rect">
+<path d="M37.5,0 H60 A15,15 0 0,1 75,15 V45 A15,15 0 0,1 60,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Atg33</tspan>
+</text>
+</g>
+<g id="Ptc6" transform="translate(1596.376997469226,778.8226243228419)" class="rect">
+<path d="M32,0 H49 A15,15 0 0,1 64,15 V45 A15,15 0 0,1 49,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">Ptc6</tspan>
+</text>
+</g>
+<g id="unknown_kinase3" transform="translate(1686.1179022418219,1228.8672883187537)" class="rect">
+<path d="M81.5,0 H148 A15,15 0 0,1 163,15 V45 A15,15 0 0,1 148,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 1; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">unknown_kinase3</tspan>
+</text>
+</g>
+<g id="mitophagy" transform="translate(1011.1433108136989,1660.1122645364958)" class="rect">
+<path d="M54,0 H93 A15,15 0 0,1 108,15 V45 A15,15 0 0,1 93,60 H15 A15,15 0 0,1 0,45 V15 A15,15 0 0,1 15,0 Z" style="fill: #10d010; fill-opacity: 0; ">
+</path>
+<text y="41" class="">
+<tspan x="15" dy="0" style="">mitophagy</tspan>
+</text>
+</g>
+</g>
+<g>
+<line class="line " id="drawable52" x1="1030.830550777332" y1="1264.4927294010995" x2="1034.3511003599133" y2="975.5465049635968" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable55" x1="1011.3173149218388" y1="905.5465049635968" x2="896.6584690788108" y2="734.4885149759357" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable58" x1="780.257701442774" y1="990.3545358094852" x2="862.0146758258701" y2="734.4885149759357" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable61" x1="888.7537934819289" y1="664.4885149759357" x2="1007.838088480797" y2="396.5488128560246" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable64" x1="1185.3110942120547" y1="456.09052131107006" x2="1083.3366122364644" y2="396.5488128560246" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable67" x1="1007.1811177448997" y1="326.5488128560246" x2="899.9242405920943" y2="95" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable70" x1="1125.81130129464" y1="581.5615099808783" x2="1194.6993864063566" y2="519.1171604316914" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable73" x1="1294.6456968699908" y1="273.3407105457736" x2="1243.4958709942316" y2="449.11716043169145" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable76" x1="1377.2153147727367" y1="374.4372282268203" x2="1279.2324183629114" y2="449.11716043169145" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable79" x1="1281.3110942120547" y1="488.92353499248236" x2="1624.6642964511993" y2="523.3044536718224" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable82" x1="865.1718805345278" y1="664.4885149759357" x2="814.7826730443943" y2="444.7597281113267" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable85" x1="1185.3110942120547" y1="475.74975508977934" x2="866.7563134247903" y2="420.21898478871685" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable88" x1="746.7563134247903" y1="414.6466047896113" x2="491.3520249162684" y2="435.44875914038056" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable91" x1="1040.4406818495067" y1="905.5465049635968" x2="1081.536455485953" y2="651.5615099808783" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable94" x1="854.2197091146631" y1="444.7597281113267" x2="1041.199593488942" y2="582.6406331325427" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable97" x1="977.7775438465178" y1="907.7725538479149" x2="822.0558758600382" y2="818.2354602647334" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable100" x1="1185.3110942120547" y1="517.4810732901049" x2="822.0558758600382" y2="769.9730618413682" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable103" x1="981.9041072907276" y1="1291.535285829701" x2="681.411472789885" y2="1242.2331583521488" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable106" x1="602.411472789885" y1="1220.5560153528886" x2="353.63865336286835" y2="1124.8487758854867" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable109" x1="242.67821156443654" y1="671.8393666601623" x2="236.0960553188869" y2="854.9637891644379" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable112" x1="300.6421975718448" y1="1074.2677200154867" x2="247.33448410595437" y2="924.9637891644379" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable115" x1="416.3892629912963" y1="473.5437810366275" x2="280.8990004933647" y2="601.8393666601623" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable118" x1="273.33802831493085" y1="922.7523169155038" x2="434.0728636951052" y2="1059.642150952539" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable121" x1="747.8084188290438" y1="831.3861595209455" x2="511.41701192950967" y2="1059.642150952539" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable124" x1="476.5670082145813" y1="1129.642150952539" x2="490.5103702757182" y2="1478.861453328689" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable127" x1="769.0866448595397" y1="1060.3545358094852" x2="769.2019179694845" y2="1382.9193817677442" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable130" x1="1053.8662896811315" y1="1334.4927294010995" x2="1238.1392528359843" y2="1609.3841952971998" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable133" x1="1399.2633323689658" y1="1795.1410640525864" x2="1293.5612818308439" y2="1679.3841952971998" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable136" x1="1294.727481517131" y1="1886.3214743150165" x2="1266.3936343652842" y2="1679.3841952971998" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable139" x1="1610.6693766077515" y1="1713.5136002806837" x2="1312.1014352263883" y2="1654.3852138320183" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable142" x1="483.4040293400399" y1="1548.861453328689" x2="445.70301864456945" y2="1704.0316438669688" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable145" x1="400.1992243928253" y1="1729.2598458664659" x2="327.5520980071742" y2="1710.073547370315" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable148" x1="181.42494566781946" y1="1842.1361340999138" x2="254.033146046891" y2="1731.736363612872" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable151" x1="105" y1="1675.287219697102" x2="226.5520980071742" y2="1690.4407021225877" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable154" x1="453.4078235917841" y1="1546.6308106580493" x2="318.17283121095556" y2="1661.736363612872" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable157" x1="1696.374596598954" y1="492.2096330024651" x2="1819.6418759711785" y2="360.3137238075142" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable160" x1="1894.3521761189331" y1="311.74407089651265" x2="2060.56243551214" y2="258.0437011295281" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable163" x1="2138.56243551214" y1="271.12025916578295" x2="2267.8508072051336" y2="356.2415683652717" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable166" x1="2307.3006312090824" y1="417.24771005730145" x2="2307.0837537937527" y2="568.5294011821388" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable169" x1="2324.3656525592814" y1="417.24771005730145" x2="2415.1817536731687" y2="604.0589018622995" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable172" x1="2303.506683319706" y1="638.5294011821388" x2="2286.0255247010928" y2="812.0079544727923" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable175" x1="2407.0008655417614" y1="674.0589018622995" x2="2307.6943637086524" y2="812.0079544727923" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable178" x1="1702.6642964511993" y1="561.6261895633763" x2="1907.5469285634865" y2="742.4301561387838" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable181" x1="2247.4986302230973" y1="865.9776079837288" x2="1997.1084324857266" y2="1001.6866163726663" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable184" x1="1945.226728207525" y1="812.4301561387838" x2="1934.5129514156956" y2="1001.6866163726663" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable187" x1="2271.225194307695" y1="882.0079544727923" x2="2203.091911105545" y2="1093.5375120957033" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable190" x1="1971.5919651077481" y1="812.4301561387838" x2="2167.4345824789134" y2="1093.5375120957033" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable193" x1="2181.2152872356423" y1="1163.5375120957033" x2="2083.272297999279" y2="1486.836942227732" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable196" x1="2032.6691100447788" y1="1544.0800595404426" x2="1760.1101946737508" y2="1695.6440577710164" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable199" x1="1882.7449546876637" y1="1931.480137431703" x2="1729.5099064755445" y2="1765.6440577710164" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable202" x1="530.4078235917841" y1="1534.322793077166" x2="802.5398145429208" y2="1678.9509780974422" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable205" x1="778.0911935733731" y1="1452.9193817677442" x2="831.6630466840596" y2="1664.146586160874" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable208" x1="1211.1014352263883" y1="1650.952119331992" x2="878.5398145429208" y2="1694.2043858970699" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable211" x1="860.8748500609155" y1="1734.146586160874" x2="987.9227624711265" y2="1952.8173099185224" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable214" x1="840.4521349558562" y1="1734.146586160874" x2="839.746863036875" y2="2015.6775329950615" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable217" x1="965.7577979891212" y1="2003.6629886511314" x2="905.6591834498104" y2="2026.0701260220685" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable220" x1="835.3313257779922" y1="2273.3493501430494" x2="838.9789221556163" y2="2085.6775329950615" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable223" x1="327.5520980071742" y1="1706.8491166464232" x2="630.0964188838261" y2="1767.4343839479875" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable226" x1="1879.8293943480694" y1="1071.6866163726663" x2="1539.4297227771021" y2="1297.7490121286203" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable229" x1="1559.3111414761627" y1="1120.1125197732472" x2="1507.5356580882105" y2="1290.9736334253685" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable232" x1="1659.278648407839" y1="562.2096330024651" x2="1632.7626455125862" y2="773.8226243228419" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable235" x1="1727.7943684831093" y1="1223.8672883187537" x2="1609.7406105459836" y2="1120.1125197732472" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable238" x1="1620.9713801898358" y1="843.8226243228419" x2="1577.3226940666611" y2="1050.1125197732472" marker-end="url(#connectingArc5)">
+</line>
+<line class="line " id="drawable241" x1="861.5468835366062" y1="2015.6775329950615" x2="1043.2556107269031" y2="1725.1122645364958" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable244" x1="1455.4276048265706" y1="1360.9736334253685" x2="1106.6454287642305" y2="1655.1122645364958" marker-end="url(#connectingArc3)">
+</line>
+<line class="line " id="drawable247" x1="706.0964188838261" y1="1766.9154562687625" x2="1006.1433108136989" y2="1702.732867622203" marker-end="url(#connectingArc3)">
+</line>
+</g>
+</g>
+</svg>
